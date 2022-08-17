@@ -1,0 +1,167 @@
+body{
+  font-family: "Montserrat";
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+#title{
+  background-color: #F56A79;
+  color: #fff;
+
+}
+
+h1{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-family: "Montserrat-bold";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+
+h3{
+  font-family: "Montserrat-bold" ;
+}
+
+/* navigation bar */
+
+.navbar{
+  padding-bottom: 2.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light"
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* download button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-image{
+  height: 450px;
+  width: 300px;
+  transform: rotate(25deg);
+  position: absolute;
+  margin-bottom: 500px ;
+  margin-left: 120px;
+}
+
+#features{
+  background-color: #D9ECF2;
+  padding: 7% 15%;
+  position: absolute;
+  z-index: 1;
+}
+
+.feature-box{
+  text-align: center;
+}
+
+.icon{
+  color: #D4D925;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #E45826;
+}
+
+
+/* testimonial section */
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  color: #125B50;
+  background-color: #DEB6AB;
+}
+
+.testimonial-image{
+  margin:5% 5% ;
+  border-radius: 100%;
+}
+
+/* press section */
+#press{
+  text-align: center;
+  background-color: #DEB6AB;
+  padding: 3%;
+
+}
+
+.press-logo{
+  width: 15%;
+  margin: 3% 5%;
+}
+
+
+/* pricing section */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+@media (max-width: 1020px) {
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* section cta */
+#cta{
+  background-color: #F56A79;
+  padding: 3% 15%;
+  text-align: center;
+  color: #fff;
+}
+
+.cta-heading{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+    /* footer */
+#footer{
+  background-color: #E7FBBE;
+  padding: 7% 15%;
+  text-align: center;
+  color: #7D1E6A;
+}
+
+#footer-font{
+  font-family: "Montserrat-bold";
+  font-size: 2.5rem;
+  line-height: 2.5;
+}
+
+#social-icon{
+  margin: 20px 10px;
+}
